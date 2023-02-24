@@ -1,0 +1,18 @@
+[{
+    "Q1":{
+        "Pa":{
+            "T1":{"input":[-5,14,-5,-8,7,7,-20],"output":15},
+            "T2":{"input":[1,2,3,4,5,6,7,-1],"output":28},
+            "T3":{"input":[-10],"output":-10},
+            "T4":{"input":[1,-1,1,-1,1,-1,1,-1,1,-1],"output":1},
+            "T5":{"input":[1,2,3,4,-10,1,2,3,4,-9,1,2,3,4,-10],"output":11}
+        },
+        "Pd":{
+            "T1":{"input":["stand","stamps"],"output":[3, ["use(s)", "use(t)", "use(a)", "replace(m,n)", "replace(p,d)", "delete(s)"]]},
+            "T2":{"input":["asleep","steep"],"output":[2, ["insert(a)", "use(s)", "replace(t,l)", "use(e)", "use(e)", "use(p)"]]},
+            "T3":{"input":["abcdefghijklmnopqrstuvwxyz","abcdefghijklmnopqrstuvwxyz"],"output":[0, ["use(a)", "use(b)", "use(c)", "use(d)", "use(e)", "use(f)", "use(g)", "use(h)", "use(i)", "use(j)", "use(k)", "use(l)", "use(m)", "use(n)", "use(o)", "use(p)", "use(q)", "use(r)", "use(s)", "use(t)", "use(u)", "use(v)", "use(w)", "use(x)", "use(y)", "use(z)"]]},
+            "T4":{"input":["aaaabbbb","abababab"],"output":[4, ["use(a)", "replace(b,a)", "insert(a)", "use(a)", "use(b)", "replace(a,b)", "use(b)", "delete(a)", "use(b)"]]},
+            "T5":{"input":["aabaa","abaa"],"output":[1, ["insert(a)", "use(a)", "use(b)", "use(a)", "use(a)"]]}
+        }
+    }
+}]
